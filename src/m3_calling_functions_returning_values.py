@@ -145,7 +145,7 @@ def test_digits_in_cube():
     answer = digits_in_cube(3)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
-    expected = 7
+    expected = 8
     answer = digits_in_cube(5)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
@@ -174,7 +174,7 @@ def digits_in_cube(n):
     #    the    sum_of_digits    function that is DEFINED ABOVE.
     ####################################################################
     # ------------------------------------------------------------------
-    zed = n**2
+    zed = n**3
     outpt = sum_of_digits(zed)
     return outpt
 
